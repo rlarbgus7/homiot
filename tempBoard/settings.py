@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'tempBoard.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ifreck',  
-        'USER': 'root', #root
-        'PASSWORD': '123456', #비밀번호(반드시 str이어야 합니다.)
-        'HOST': '127.0.0.1', #공백으로 냅두면 default localhost
+        'NAME': 'sql12793978',  
+        'USER': 'sql12793978', #root
+        'PASSWORD': 'qLHuWrPK7l', #비밀번호(반드시 str이어야 합니다.)
+        'HOST': 'sql12.freesqldatabase.com', #공백으로 냅두면 default localhost
         'PORT': '3306' #공백으로 냅두면 default 3306
     }
 }
